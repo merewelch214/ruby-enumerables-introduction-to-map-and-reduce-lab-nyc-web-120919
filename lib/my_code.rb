@@ -15,5 +15,5 @@ def map_no_change(array)
     newer_array.push(array[i]) 
     i += 1
   end 
-  new_array
+  newer_array
 end
