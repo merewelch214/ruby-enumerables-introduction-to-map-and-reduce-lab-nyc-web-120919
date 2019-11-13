@@ -64,10 +64,10 @@ end
 
 def reduce_to_any_true(array)
   i = 0
-  true_arr = []
+  j = true
   while i < array.length do
     if array[i]
-      true
+      j = true
     else 
       false
     end
