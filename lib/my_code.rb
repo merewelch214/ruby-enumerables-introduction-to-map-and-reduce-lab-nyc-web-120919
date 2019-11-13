@@ -64,7 +64,7 @@ end
 
 def reduce_to_any_true(array)
   i = 0
-  final_arr = []
+  final = nil
   while i < array.length do
     if array[i]
       true
