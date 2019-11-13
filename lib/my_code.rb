@@ -8,7 +8,7 @@ def map_to_negativize(array)
   new_array
 end
 
-def map_no_change(array)
+def map_to_no_change(array)
   i = 0
   newer_array = []
   while i < array.length do
