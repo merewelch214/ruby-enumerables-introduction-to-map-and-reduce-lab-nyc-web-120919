@@ -48,12 +48,14 @@ def reduce_to_total(array, starting_point = 0)
   total
 end
 
-def reduce_to_total(array, starting_point = 0)
+def reduce_to_all_true(array)
   i = 0
-  total = starting_point
+  true_arr = []
   while i < array.length do
-    total += array[i] 
+    if array[i]
+      true_array.push(array[i])
+    end
     i += 1
   end 
-  total
+  true_arr
 end
