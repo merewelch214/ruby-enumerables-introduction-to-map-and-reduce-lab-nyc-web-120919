@@ -7,3 +7,12 @@ def map_to_negativize(array)
   end 
   new_array
 end
+
+def map_no_change(array)
+  i = 0 
+  new_array = []
+  while i < array.length do
+    new_array.push(array[i])
+  end 
+  new_array
+end
