@@ -9,10 +9,10 @@ def map_to_negativize(array)
 end
 
 def map_no_change(array)
-  i = 0 
-  new_array = []
+  i = 0
+  newer_array = []
   while i < array.length do
-    new_array << array[i])
+    newer_array.push(array[i]) 
     i += 1
   end 
   new_array
