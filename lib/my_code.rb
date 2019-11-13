@@ -67,10 +67,11 @@ def reduce_to_any_true(array)
   final = nil
   while i < array.length do
     if array[i]
-      true
+      final = true
     else 
-      false
+      final = false
     end
     i += 1
   end 
+  final
 end
