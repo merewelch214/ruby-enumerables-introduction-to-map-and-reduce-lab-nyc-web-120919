@@ -10,9 +10,10 @@ end
 
 def map_to_no_change(array)
   i = 0
-  newer_array = []
+  new_array = []
   while i < array.length do
-    newer_array.push(array[i]) 
+    new_array.push(array[i]) 
     i += 1
   end 
+  new_array
 end
