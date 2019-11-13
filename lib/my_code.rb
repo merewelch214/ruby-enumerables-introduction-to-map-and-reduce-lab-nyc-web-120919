@@ -1,6 +1,8 @@
 map_to_negativize(array)
-  for i in array do
+  i = 0
+  while i < array.length do
     new_array << i * -1   
+    i += 1
   end 
   new_array
 end
