@@ -14,7 +14,6 @@ def map_to_no_change(array)
   while i < array.length do
     newer_array.push(array[i]) 
     i += 1
-    p newer_array
   end 
   puts newer_array
 end
